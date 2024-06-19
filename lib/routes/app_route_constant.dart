@@ -1,0 +1,29 @@
+class MyRouteConstants {
+  static const String splashScreenRouteName = 'splash';
+  static const String onboardingPageRouteName = 'onboarding';
+  static const String signUpPageRouteName = 'signup';
+  static const String loginPageRouteName = 'login';
+  static const String searchScreenRouteName = 'search';
+  static const String myHomePageRouteName = 'my-home';
+  static const String homePageRouteName = 'home';
+  static const String otpPageRouteName = 'otp';
+  static const String forgetPassowordPageRouteName = 'forget-p';
+  static const String calenderPageRouteName = 'calender';
+  static const String messageScreenRouteName = 'message';
+  static const String documentListPageRouteName = 'document-list';
+  static const String serviceTeamScreenRouteName = 'service-team';
+  static const String designTeamScreenRouteName = 'design-team';
+  static const String recentChatScreenRouteName = 'recent-chats';
+  static const String chatScreenRouteName = 'chat';
+  static const String notificationScreenRouteName = 'notification';
+  static const String profileScreenRouteName = 'profile';
+  static const String documentScreenRouteName = 'document';
+  static const String privacyPolicyScreenRouteName = 'privacy';
+  static const String helpScreenRouteName = 'help';
+  static const String securityScreenRouteName = 'security';
+  static const String languageScreenRouteName = 'language';
+  static const String editProfileScreenRouteName = 'edit-profile';
+  static const String taskScreenRouteName = 'task';
+  static const String inventoryScreenRouteName = 'inventory';
+  static const String attachedFileScreenRouteName = 'file';
+}

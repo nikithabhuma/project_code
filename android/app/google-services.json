@@ -1,0 +1,29 @@
+{
+    "project_info": {
+      "project_number": "299776980863",
+      "project_id": "diginova-7bcf6",
+      "storage_bucket": "diginova-7bcf6.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:299776980863:android:ccfb1e46db8561edb18c4a",
+          "android_client_info": {
+            "package_name": "com.example.diginova"
+          }
+        },
+        "oauth_client": [],
+        "api_key": [
+          {
+            "current_key": "AIzaSyAoVMIK-QtPQRMX2rxS9KPsbPAQalWAUfg"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": []
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
