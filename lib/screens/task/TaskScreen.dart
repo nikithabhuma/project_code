@@ -395,7 +395,7 @@ class _TaskScreenState extends State<TaskScreen> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            'Chhose',
+                            'Choose',
                             style: TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.bold,
@@ -403,7 +403,7 @@ class _TaskScreenState extends State<TaskScreen> {
                             ),
                           ),
                           Text(
-                            'file to upload',
+                            '  file to upload',
                             style: TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.bold,
@@ -431,19 +431,24 @@ class _TaskScreenState extends State<TaskScreen> {
                 padding: const EdgeInsets.symmetric(horizontal: 30),
                 child: Row(
                   children: [
-                    Icon(
-                      Icons.question_mark_outlined,
-                      color: Colors.black54,
-                      size: 20,
-                    ),
+                    //Icon(
+                    //Icons.question_mark_outlined,
+                    //color: Colors.black54,
+                    // size: 20,
+                    //),
                     SizedBox(width: 10),
-                    Text(
-                      'Still need help?',
-                      style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.black,
-                      ),
+                    Row(
+                      children: [
+                        Text(
+                          '',
+                          style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600,
+                            color: Colors.black,
+                          ),
+                        ),
+                        SvgPicture.asset('assets/text & icon.svg'),
+                      ],
                     ),
                   ],
                 ),
